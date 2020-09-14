@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/img/Buenos-Aires.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+    margin-top: 4rem;
+    color: rgb(88, 28, 70);
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+    color: blanchedalmond;
+}
+
+.count{
+    text-align: center;
+}
+
+.count span{
+    font-size: 1.3rem;
+    color: blanchedalmond;
+}
